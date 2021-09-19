@@ -21,8 +21,8 @@ public class ParabolicScript : ProcessingLite.GP21
             float a = i / scale;
             float b = 10/scale - a;
 
-            if (i % 3 == 0) Stroke(0);
-            else Stroke(100);
+            if (i % 3 == 0) Stroke(0,0);
+            else Stroke(0,100);
             Line(0, b, a, 0);
 
         }

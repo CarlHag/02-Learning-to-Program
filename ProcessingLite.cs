@@ -374,7 +374,7 @@ namespace ProcessingLite
 		/// </summary>
 		/// <param name="rgb">specifies a value between white and black</param>
 		/// <param name="a">opacity of the stroke</param>
-		public void Stroke(int rgb, int a = 255) => Stroke(rgb, rgb, rgb, a);
+		public void Stroke(float r, int rgb, int a = 255) => Stroke(rgb, rgb, rgb, a);
 
 		/// <summary>
 		/// Sets the color used to draw lines and borders around shapes.
